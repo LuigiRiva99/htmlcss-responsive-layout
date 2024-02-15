@@ -56,7 +56,33 @@ body {
     border-radius: 999px;
 }
 
+.blue-btn {
+    background-color: #0084FD;
+    border-radius: 999px;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.col-12-sm {
+    width: calc(12 * 100% / 12);
+}
+
+.card p {
+    color: #5A6E7F;
+    font-weight: bold;
+}
+
 /* STYLE */
+/* GENERAL */
+
+.blue {
+    color: #0084FD;
+}
 
 /* HEADER */
 
@@ -88,6 +114,59 @@ header .white-btn {
     text-align: center;
     font-weight: bold;
 }
+
+/* TOP-SECTION */
+
+.card-head {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 30px;
+    line-height: 30px;
+}
+
+.top-section .row {
+    flex-wrap: wrap;
+} 
+
+.top-section .card {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #B5DDFF;
+}
+
+.top-section .blue-btn {
+    padding: 10px 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top-card-img {
+    padding-top: 30px;
+    display: block;
+}
+
+.top-section .demo {
+    padding-bottom: 0px;
+}
+
+.card-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    line-height: 30px;
+}
+
+.card i:not(.demo i){
+    font-size: 100px;
+}
+
+.demo i {
+    margin-right: 10px;
+}
+
 
 
 
