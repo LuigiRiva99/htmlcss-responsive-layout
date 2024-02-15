@@ -39,12 +39,12 @@ body {
 
 .container-lg {
     max-width: 1210px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .container-sm {
     max-width: 950px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .flex {
@@ -63,7 +63,7 @@ body {
 }
 
 .card {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     border-radius: 20px;
 }
@@ -72,7 +72,7 @@ body {
     width: calc(12 * 100% / 12);
 }    
 
-.card p {
+.top-section .card p {
     color: #5A6E7F;
     font-weight: bold;
 }
@@ -148,7 +148,6 @@ header .white-btn {
 }
 
 .top-card-img {
-    padding-top: 30px;
     display: block;
 }
 
@@ -172,6 +171,50 @@ header .white-btn {
     margin-right: 10px;
 }
 
+.card-body {
+    margin-top: 30px;
+}
+
+/* STRATEGIC SECTION */
+
+.strategic {
+    background-color: #9792E4;
+}
+
+.planning {
+    gap: 30px;
+    flex-direction: column;
+    color: white;
+}
+
+.planning h2 {
+    font-size: 38px;
+}
+
+.app-development {
+    margin-top: 50px;
+}
+.app-card {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.circle {
+    width: 50px;
+    border-radius: 50%;
+    background-color: #9792E4;
+    padding: 15px;
+}
+
+.strategic .app-development .app-card i{
+    font-size: 20px;
+}
+
+.circle,
+.app-card h2,
+.app-card p {
+    margin-top: 30px;
+}
 
 
 
@@ -190,10 +233,9 @@ header .white-btn {
         width: calc(4 * 100% / 12);
     }
 
-    .top-card-img {
-        padding-right: 200px;
+    .card-body {
+        margin-right: 120px;
     }
-
     .card {
         height: 100%;
     }
@@ -205,6 +247,10 @@ header .white-btn {
     }
 
     .nav-list {
+        display: flex;
+    }
+
+    .demo {
         display: flex;
     }
 }    
