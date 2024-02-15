@@ -68,9 +68,9 @@ body {
     border-radius: 20px;
 }
 
-.col {
+.col-12-sm {
     width: calc(12 * 100% / 12);
-}
+}    
 
 .card p {
     color: #5A6E7F;
@@ -107,6 +107,7 @@ header {
 .nav-list {
     gap: 10px;
     align-items: center;
+    display: none;
 }
 
 .hamburger-menu {
@@ -176,17 +177,7 @@ header .white-btn {
 
 /* MEDIA QUERY */
 
-@media (max-width: 576px) {
-    .nav-list {
-        display: none;
-    }
-
-    .col-12-sm {
-        width: calc(12 * 100% / 12);
-    }    
-}
-
-@media (min-width: 577px) {
+@media (min-width: 576px) {
     .nav-list {
         display: none;
     }
@@ -208,8 +199,12 @@ header .white-btn {
     }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
     .hamburger-menu {
         display: none;
+    }
+
+    .nav-list {
+        display: flex;
     }
 }    
