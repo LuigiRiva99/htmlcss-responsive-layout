@@ -265,10 +265,11 @@ header .white-btn {
 /* MEDIA QUERY */
 
 @media (min-width: 576px) {
+    /* header */
     .nav-list {
         display: none;
     }
-
+    /* TOP-SECTION */
     .col-8-lg {
         width: calc(8 * 100% / 12);
     }
@@ -283,8 +284,20 @@ header .white-btn {
     .card {
         height: 100%;
     }
-}
+    /* TESTIMONIALS */
 
+    .testimonial-card {
+        display: flex;
+    }
+
+    .col-9-lg {
+        width: calc(9 * 100% / 12);
+    }
+
+    .col-3-lg {
+        width: calc(3 * 100% / 12);
+    }
+}
 @media (min-width: 992px) {
     /* header */
     .hamburger-menu {
