@@ -216,7 +216,51 @@ header .white-btn {
     margin-top: 30px;
 }
 
+/* testimonial */
 
+.headshot img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.testimonial-card {
+    background-color: #9792E4;
+    color: white;
+    margin-top: 20px;
+}
+
+.testimonial-card p,
+.testimonial-intro p{
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.testimonial-intro {
+    text-align: center;
+}
+
+.testimonial-intro .testimonial-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #9792E4;
+}
+
+.testimonials .row {
+    flex-direction: column;
+}
+
+/* .testimonial-intro p{
+    line-height: 30px;
+    margin-top;
+} */
 
 /* MEDIA QUERY */
 
