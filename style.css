@@ -29,3 +29,82 @@ ol {
 body {
 	font-family: 'Open Sans';
 }
+
+/* LAYOUT */
+
+.container-lg,
+.container-sm {
+    margin: 0 auto;
+}
+
+.container-lg {
+    max-width: 1210px;
+    padding: 20px;
+}
+
+.container-sm {
+    max-width: 950px;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.white-btn {
+    background-color: white;
+    border-radius: 999px;
+}
+
+/* STYLE */
+
+/* HEADER */
+
+header {
+    background-color: #0084FD;
+    color: white;
+}
+
+.navigation {
+    justify-content: space-between;
+}
+
+.nav-options {
+    align-items: center;
+}
+
+.nav-list {
+    gap: 10px;
+    align-items: center;
+}
+
+.hamburger-menu {
+    font-size: 35px;
+}
+
+header .white-btn {
+    line-height: 30px;
+    padding: 5px 10px 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 992px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) {
+    .hamburger-menu {
+        display: none;
+    }
+}    
