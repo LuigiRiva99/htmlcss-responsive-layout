@@ -242,6 +242,7 @@ header .white-btn {
 }
 
 @media (min-width: 992px) {
+    /* header */
     .hamburger-menu {
         display: none;
     }
@@ -250,7 +251,40 @@ header .white-btn {
         display: flex;
     }
 
+    /* TOP-SECTION */
     .demo {
         display: flex;
     }
+
+    /* STRATEGIC-SECTION */
+    .strategic .row {
+        display: flex;
+    }
+
+    .planning {
+        padding: 20px;
+    }
+    .planning-img {
+        padding: 50px 0px 80px;
+    }
+
+    .app-development {
+        margin-top: 150px;
+    }
+
+    .strategic .col-6-lg {
+        width: calc(6 * 100% / 12);
+    }
+    .planning h2 {
+        margin-top: 30px;
+    }
+    
+    .app-card img{
+        height: 270px;
+    }
+
+    .app-card {
+        margin-top: 200px;
+    }
+    
 }    
