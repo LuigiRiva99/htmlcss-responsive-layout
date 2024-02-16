@@ -288,14 +288,18 @@ header .white-btn {
 
     .testimonial-card {
         display: flex;
+        align-items: center;
     }
 
-    .col-9-lg {
-        width: calc(9 * 100% / 12);
+    .headshot {
+        flex-shrink: 0;
     }
 
-    .col-3-lg {
-        width: calc(3 * 100% / 12);
+    .testimonial-bio {
+        margin-left: 50px;
+    }
+    .testimonial-bio p {
+        text-align: left;
     }
 }
 @media (min-width: 992px) {
