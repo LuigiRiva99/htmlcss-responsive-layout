@@ -281,6 +281,7 @@ header .white-btn {
 
 .card-benefits p{
     line-height: 1.8em;
+    color: #5A6E7F;
 }
 
 .card-benefits h2{
@@ -305,6 +306,43 @@ header .white-btn {
 
 .card-benefits > *:not(.card-num){
     margin-top: 30px;
+}
+
+/* ABOUT-US SECTION */
+
+.about-us-description > *{
+    margin-bottom: 30px;
+    line-height: 1.8em;
+    font-size: 23px;
+}
+
+.about-us .headshot {
+    margin-top: 60px;
+}
+
+.about-us-title {
+    font-size: 45px;
+    color: #9792E4;
+}
+
+.user-description {
+    color: #9792E4;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 20px 0px;
+}
+
+.linkedin-btn {
+    border-radius: 999px;
+    background-color: #9792E4;
+    padding: 13px 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.linkedin-btn i {
+    margin-right: 10px;
 }
 
 /* MEDIA QUERY */
