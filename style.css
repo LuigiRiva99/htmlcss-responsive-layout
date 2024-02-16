@@ -409,9 +409,24 @@ header .white-btn {
 .dot {
     margin: 0px 5px;
 }
-/* .privacy-list li {
-    margin: 0px 10px;
-} */
+
+.credits > * {
+    padding: 30px 50px 0px;
+}
+
+/* FOOTER */
+
+.credits {
+    text-align: center;
+}
+
+.credits-end {
+    margin-top: 80px;
+}
+footer {
+    background-color: #333333;
+    color: white;
+}
 /* MEDIA QUERY */
 
 @media (min-width: 768px) {
