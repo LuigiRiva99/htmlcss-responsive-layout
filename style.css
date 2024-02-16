@@ -306,9 +306,10 @@ header .white-btn {
 .card-benefits > *:not(.card-num){
     margin-top: 30px;
 }
+
 /* MEDIA QUERY */
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     /* header */
     .nav-list {
         display: none;
@@ -345,6 +346,18 @@ header .white-btn {
     .testimonial-bio p {
         text-align: left;
     }
+
+    /* STRATEGIC-SECTION */
+    .strategic .row {
+        display: flex;
+    }
+
+    /* BENEFITS-SECTION */
+
+    .col-6-md {
+        width: calc(6 * 100% / 12);
+    }
+
 }
 @media (min-width: 992px) {
     /* header */
@@ -362,9 +375,6 @@ header .white-btn {
     }
 
     /* STRATEGIC-SECTION */
-    .strategic .row {
-        display: flex;
-    }
 
     .planning {
         padding: 20px;
@@ -384,12 +394,16 @@ header .white-btn {
         margin-top: 30px;
     }
     
-    .app-card img{
+    /* .app-card img{
         height: 270px;
-    }
+    } */
 
     .app-card {
         margin-top: 200px;
     }
     
+    /* BENEFITS-SECTION */
+    .col-4-lg {
+        width: calc(4 * 100% / 12);
+    }
 }    
