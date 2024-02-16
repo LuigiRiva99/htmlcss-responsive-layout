@@ -321,7 +321,7 @@ header .white-btn {
 }
 
 .about-us-title {
-    font-size: 45px;
+    font-size: 50px;
     color: #9792E4;
 }
 
@@ -396,6 +396,26 @@ header .white-btn {
         width: calc(6 * 100% / 12);
     }
 
+    /* ABOUT-US SECTION */
+
+    .about-us .row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .about-us-description {
+        padding-right: 80px;
+    }
+
+    .about-us-user {
+        text-align: center;
+        margin-left: 10px;
+        min-width: 350px;
+    }
+
+    .about-us .headshot {
+        margin-top: 0px;
+    }
 }
 @media (min-width: 992px) {
     /* header */
