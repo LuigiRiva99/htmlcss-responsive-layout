@@ -51,6 +51,10 @@ body {
     display: flex;
 }
 
+.row {
+    flex-wrap: wrap;
+}
+
 .white-btn {
     background-color: white;
     border-radius: 999px;
@@ -131,9 +135,6 @@ header .white-btn {
     line-height: 30px;
 }
 
-.top-section .row {
-    flex-wrap: wrap;
-} 
 
 .top-section .card {
     padding: 20px;
@@ -257,11 +258,54 @@ header .white-btn {
     flex-direction: column;
 }
 
-/* .testimonial-intro p{
+.testimonial-intro p{
     line-height: 30px;
-    margin-top;
-} */
+}
 
+/* BENEFITS-SECTION */
+
+.section-title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+.benefits {
+    background-color: #9792E4;
+}
+
+.card-benefits {
+    background-color: white;
+    text-align: left;
+}
+
+.card-benefits p{
+    line-height: 1.8em;
+}
+
+.card-benefits h2{
+    color: #9792E4;
+}
+
+.card-num {
+    font-size: 50px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.benefits-btn {
+    border-radius: 999px;
+    color: white;
+    background-color: #9792E4;
+    padding: 13px 75px;
+    font-size: 20px;
+}
+
+.card-benefits > *:not(.card-num){
+    margin-top: 30px;
+}
 /* MEDIA QUERY */
 
 @media (min-width: 576px) {
